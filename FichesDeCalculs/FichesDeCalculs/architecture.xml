@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Quentin MOREAU
+
+FichesDeCalculs
+
+This file describes the architecture of the application.
+All menus, formulas and so on are here.
+
+XML file-->
+<architecture>
+  <section label="Production thermique chaud">
+    
+    <page label="Puissance brûleur gaz">
+      <entry label="QN chaudière" unit="kWh"/>
+      <entry label="Pression gaz" unit="Pa"/>
+      <entry label="Température gaz" unit="°C"/>
+      <entry label="PCI gaz" unit="kWh/Nm3"/>
+      <entry label="Réglage première allure" unit="%"/>
+
+      <display label="Pbrûleur" unit="kW">
+        #0/0.9
+      </display>
+      
+      <display label="V1 100%" unit="m3/h">
+        #0*(276549+1013*#2)/(#3*(248894.1+245.7*#1))
+      </display>
+      
+      <display label="V1 première allure" unit="m3/h">
+        #0*#4*(276549+1013*#2)/(#3*(24889410+24570*#1))
+      </display>
+      
+      <display label="V1 deuxième allure" unit="m3/h">
+        #0*(276549+1013*#2)/(#3*(248894.1+245.7*#1))-#0*#4*(276549+1013*#2)/(#3*(24889410+24570*#1))
+      </display>
+      
+      <display label="V0" unit="kW">
+        #0/(0.9*#3)
+        </display>
+    </page>
+    
+  </section>
+  
+  <section label="Production d'eau chaude">
+
+  </section>
+  
+  <section label="L'hydraulique">
+    
+  </section>
+  
+  <section label="Production d'eau chaude sanitaire">
+    <page label="qecs">
+      <entry label="Q" unit="L/min"/>
+      <entry label="&#x3b7;" unit="L/min/K"/>
+      <display label="qecs" unit="K">
+        #0/#1
+      </display>
+    </page>
+  </section>
+  
+  <section label="La régulation">
+
+  </section>
+
+  <section label="Le traitement d'air">
+
+  </section>
+
+  <section label="Le bâtiment">
+
+  </section>
+
+  <section label="Les contrats / La conduite">
+
+  </section>
+
+  <section label="Efficacité énergétique et généralités">
+
+  </section>
+
+  <section label="Les bases">
+
+  </section>
+</architecture>

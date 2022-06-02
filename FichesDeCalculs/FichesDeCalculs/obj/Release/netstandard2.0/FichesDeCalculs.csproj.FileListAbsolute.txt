@@ -1,0 +1,13 @@
+C:\Users\quent\source\repos\FichesDeCalculs\FichesDeCalculs\bin\Release\netstandard2.0\FichesDeCalculs.deps.json
+C:\Users\quent\source\repos\FichesDeCalculs\FichesDeCalculs\bin\Release\netstandard2.0\FichesDeCalculs.dll
+C:\Users\quent\source\repos\FichesDeCalculs\FichesDeCalculs\bin\Release\netstandard2.0\ref\FichesDeCalculs.dll
+C:\Users\quent\source\repos\FichesDeCalculs\FichesDeCalculs\bin\Release\netstandard2.0\FichesDeCalculs.pdb
+C:\Users\quent\source\repos\FichesDeCalculs\FichesDeCalculs\obj\Release\netstandard2.0\App.xaml.g.cs
+C:\Users\quent\source\repos\FichesDeCalculs\FichesDeCalculs\obj\Release\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\quent\source\repos\FichesDeCalculs\FichesDeCalculs\obj\Release\netstandard2.0\FichesDeCalculs.AssemblyInfoInputs.cache
+C:\Users\quent\source\repos\FichesDeCalculs\FichesDeCalculs\obj\Release\netstandard2.0\FichesDeCalculs.AssemblyInfo.cs
+C:\Users\quent\source\repos\FichesDeCalculs\FichesDeCalculs\obj\Release\netstandard2.0\FichesDeCalculs.csproj.CoreCompileInputs.cache
+C:\Users\quent\source\repos\FichesDeCalculs\FichesDeCalculs\obj\Release\netstandard2.0\XamlC.stamp
+C:\Users\quent\source\repos\FichesDeCalculs\FichesDeCalculs\obj\Release\netstandard2.0\FichesDeCalculs.dll
+C:\Users\quent\source\repos\FichesDeCalculs\FichesDeCalculs\obj\Release\netstandard2.0\ref\FichesDeCalculs.dll
+C:\Users\quent\source\repos\FichesDeCalculs\FichesDeCalculs\obj\Release\netstandard2.0\FichesDeCalculs.pdb

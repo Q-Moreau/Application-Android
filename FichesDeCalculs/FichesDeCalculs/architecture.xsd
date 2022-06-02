@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Quentin Moreau
+
+This file rules the XML file.
+
+XSD file-->
+<xs:schema targetNamespace="http://tempuri.org/XMLSchema.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/XMLSchema.xsd"
+    xmlns:mstns="http://tempuri.org/XMLSchema.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+
+  <xs:attribute name="label" type="xs:string"/>
+  <xs:attribute name="unit" type="xs:string"/>
+  <xs:attribute name="coefficient" type="xs:float"/>
+
+
+  <xs:element name="product">
+    <xs:complexType>
+      <xs:attribute ref="coefficient"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="summation">
+    <xs:sequence>
+      <xs:element ref="product" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:element name="entry">
+    <xs:complexType>
+      <xs:attribute ref="label"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="display">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="numerator" type="summation"/>
+        <xs:element name="denominator" type="summation"/>
+      </xs:sequence>
+      <xs:attribute ref="label"/>
+      <xs:attribute ref="unit"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="page">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="entry" minOccurs="1" maxOccurs="unbounded"/>
+        <xs:element ref="display" minOccurs="1" maxOccurs="unbounded"/>
+      </xs:sequence>
+      <xs:attribute ref="label"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="section">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="page" minOccurs="1" maxOccurs="unbounded"/>
+      </xs:sequence>
+      <xs:attribute ref="label"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="architecture">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="section" minOccurs="1" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+
+</xs:schema>
