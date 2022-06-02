@@ -1,0 +1,8 @@
+C:\Users\quent\source\repos\EvaluationChaineDeCaracteres\bin\Debug\netstandard2.0\EvaluationChaineDeCaracteres.deps.json
+C:\Users\quent\source\repos\EvaluationChaineDeCaracteres\bin\Debug\netstandard2.0\EvaluationChaineDeCaracteres.dll
+C:\Users\quent\source\repos\EvaluationChaineDeCaracteres\bin\Debug\netstandard2.0\EvaluationChaineDeCaracteres.pdb
+C:\Users\quent\source\repos\EvaluationChaineDeCaracteres\obj\Debug\netstandard2.0\EvaluationChaineDeCaracteres.fsprojAssemblyReference.cache
+C:\Users\quent\source\repos\EvaluationChaineDeCaracteres\obj\Debug\netstandard2.0\EvaluationChaineDeCaracteres.AssemblyInfoInputs.cache
+C:\Users\quent\source\repos\EvaluationChaineDeCaracteres\obj\Debug\netstandard2.0\EvaluationChaineDeCaracteres.AssemblyInfo.fs
+C:\Users\quent\source\repos\EvaluationChaineDeCaracteres\obj\Debug\netstandard2.0\EvaluationChaineDeCaracteres.dll
+C:\Users\quent\source\repos\EvaluationChaineDeCaracteres\obj\Debug\netstandard2.0\EvaluationChaineDeCaracteres.pdb
